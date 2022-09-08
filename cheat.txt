@@ -1,0 +1,6 @@
+# mise a jours local
+git add *
+# nommer ta mise à jour
+git commit -m "NOM"
+# upload
+git push
