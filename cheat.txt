@@ -1,6 +1,27 @@
-# mise a jours local
+########################################### GITHUB ###################################################
+
+
+# Local update
+
 git add *
-# nommer ta mise à jour
+
+# Name the update
+
 git commit -m "NOM"
-# upload
+
+# Upload
+
 git push
+
+
+
+############################################# ROS ####################################################
+
+
+# Launch Gazebo
+
+roslaunch turtlebot3_gazebo "nameoftheworld.launch"
+
+# Run a python file
+
+rosrun "nameofthepackage" "nameofthepythonfile"
